@@ -1,0 +1,133 @@
+.gambar-tengah img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px; /* atau sesuai kebutuhan */
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+  background:007bff;
+  color: white;
+  padding: 2rem;
+}
+
+.logo-kanan {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.logo-kanan img {
+  width: 60px;
+  height: auto;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background:#007bff;
+  color: #333;
+}
+
+header {
+  background:#007bff ;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background:black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color :#007bff;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.hero {
+  background:#007bff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.program {
+  padding: 2rem 1rem;
+  background:#007bff
+  text-align center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background:#007bff;
+  justify-content: center;
+  padding: 2rem;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.galeri {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.gambar-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.gambar-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; 
+  height: auto;
+}
+
+footer {
+  color:#e2eafc;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
