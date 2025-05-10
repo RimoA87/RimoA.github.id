@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+.main-header {
+  background-color: #1D3557;
+  color: white;
+  padding: 1rem 0;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-menu li {
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-nav {
+  background: white;
+  color: #1D3557;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+.hero {
+  background: #f1f6fb;
+  padding: 3rem 0;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+.btn-primary {
+  background: #1D3557;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}
+.section {
+  padding: 3rem 0;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card, .stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card h3, .stat-card h3 {
+  color: #1D3557;
+}
+.story {
+  background: #e9f1fa;
+}
+.btn-secondary {
+  background: transparent;
+  color: #1D3557;
+  border: 2px solid #1D3557;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+footer {
+  background: #1D3557;
+  color: white;
+  padding: 2rem 1rem;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+}
